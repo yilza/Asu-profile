@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <!-- Remember to replace this with your title! -->
+    <title>Brians Portfolio</title>
+    
+    <!-- Link for boostrap from: 
+    https://getbootstrap.com/docs/5.0/getting-started/introduction -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="100">
+
+
+  <!-- Navbar: Skip this and start with the hero section. When You're ready to return start by copy/pasting this snippet:
+
+  https://getbootstrap.com/docs/5.0/components/navbar/#nav 
+  -->
+  <!-- PASTE NAVBAR CODE TO CUSTOMIZE -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="navbar-spy">
+      <div class="container-md">
+        <a class="navbar-brand" href="#top"><i class="bi bi-house-fill"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="navbar-collapse collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#mission-section">Mission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills-section">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#inspiration-section">Inspiration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-section" tabindex="-1" aria-disabled="true">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+
+
+  <a name="top"></a>
+
+  <!-- Hero section -->
+  <section class="py-5" id="hero-section">
+    <div class="hero-image">
+      <div class="hero-text">
+        <h2>Brian Keniston</h2>
+        <p>"Breaking into the Software Engineering World"</p>
+        <div id="profile-img"></div>
+      </div>
+    </div>
+    <!-- Start writing your hero section here. -->
+  </section>
+
+  <!-- Mission/Meet-me section -->
+  <section class="py-5" id="mission-section">
+    <div class="container">
+      <div class="parallax1">
+      <div class="row">
+        <!-- Start writing your Mission/Meet-me section here. -->
+        <h3 class="col-12">Mission</h3>
+        <div class="col-sm-12 col-md-6">
+        <img src="https://i.imgur.com/H4dDt6F.jpeg" class="img-fluid">
+        </div>
+        <div class="col-sm-12 col-md-6"
+        <p>I want to make technology the best that it possibly can be as well as i want to help bring forth the future of integrating technology and human beings i believe whole heartedly that we are capable of so much more and that technology is our future. The only thing we must figure out is how to integrate our biomechanical software with the computer software that we have created this is the next step in the evolutionary process for our technology, after all human beings create things in our own image it’s about time our image changes and becomes something more.</p>
+      </div>
+    </div>
+        </div>
+  </section>
+
+
+  <!-- Skills section -->
+  
+      <section class="py-5" id="skills-section">
+        <div class="container">
+          <div class="parallax1">
+            <div class="row">
+        <!-- Start writing your skills section here. -->
+        <h3 class="col-12">Skills</h3>
+        <div class="skill-container col-sm-12 col-md-6 col-lg-3">
+          <img id="skill1" src="img/html.png">
+          <p>HTML5</p>
+        </div>
+        <div class="skill-container col-sm-12 col-md-6 col-lg-3">
+          <img id="skill2" src="img/css3.png">
+          <p>CSS</p>
+        </div>
+        <div class="skill-container col-sm-12 col-md-6 col-lg-3">
+          <img id="skill3" src="img/BT.svg">
+          <p>Bootstrap</p>
+        </div><div class="skill-container col-sm-12 col-md-6 col-lg-3">
+          <img id="skill4" src="img/Java.jpg">
+          <p>Java</p>
+        </div>
+        <div class="skill-container col-sm-12 col-md-6 col-lg-3">
+          <img id="skill4" src="img/python.png">
+          <p>Python</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inspiration Section -->
+
+  <section class="py-5" id="inspiration-section">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="parallax3">
+      <div class="overlay">
+      </div>
+      <h3>Inspiration</h3>
+        <div class="carousel slide" id="carousel-inspiration" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button class="active" type="button" data-bs-target="#carousel-inspiration" data-bs-slide-to="0">
+            </button>
+            <button type="button" data-bs-target="#carousel-inspiration" data-bs-slide-to="1">
+            </button>
+            <button type="button" data-bs-target="#carousel-inspiration" data-bs-slide-to="2">
+            </button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/grasse.jpg" alt="otherside" id="carousel-photo">
+              <div class="carousel-caption">
+                <h5>The grass is not, in fact always greener on the other side</h5>
+                <p>-Robert Fulghum
+              
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/Chaos.jpg" alt="Chaos painting" id="carousel-photo">
+              <div class="carousel-caption">
+                  <h5>There is beauty in Chaos</h5>
+                  <p>― Unknown</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/sun.jpg" alt="opertunity" id="carousel-photo">
+              <div class="carousel-caption">
+                  <h5>Everyday is a new day don't let yesterday hold back your tomorrow.</h5>
+               </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-inspiration" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-inspiration" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-5" id="contact-section">
+  <div class="container">
+    <div class="row mt-5"">
+      <h3 class="col-12">Contact Me</h3>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+        <!-- See https://icons.getbootstrap.com/ -->
+        <a class="btn btn-primary  btn-dark col-sm-12 col-md-6 col-lg-3" href="https://www.facebook.com/brian.keniston" target="_blank">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a class="btn btn-primary btn-dark col-sm-12 col-md-6 col-lg-3" href="https://github.com/yilza" target="_blank">
+          <i class="bi bi-github"></i>
+        </a>
+        <a class="btn btn-primary btn-dark col-sm-12 col-md-6 col-lg-3" href="https://mail.google.com/" target="_blank">
+          <i class="bi bi-envelope"></i>
+        </a>
+        <a class="btn btn-primary btn-dark col-sm-12 col-md-6 col-lg-3" href="https://www.linkedin.com/in/brian-keniston-9a8379104/" target="_blank">
+          <i class="bi bi-linkedin"></i>
+        </a>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- Footer section -->
+  <footer class="py-5">
+    &copy; Brian Arthur Keniston, 2021
+  </footer>
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+/* You can add custom CSS and override boostrap styles in this file.  Remember, bootstrap is just CSS at the end of the day! */
+
+/* Navbar Section */
+#navbar-spy {
+  min-height: 5px;
+  -webkit-box-shadow: 0 8px 6px -6px lime;
+  -moz-box-shadow: 0 8px 6px -6px lime;
+	box-shadow: 0 8px 6px -6px yellowgreen;
+  z-index: 1;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+/* main */
+
+body {
+  background-color: black;
+  color: purple;
+}
+
+/* Hero Section */
+#hero-section {
+  /* This should be an image. */
+  background-image: url(https://www.njea.org/wp-content/uploads/2014/10/Coding.jpg);
+  background-color: purple;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+  /* Change this values to work for you. */
+  padding: clamp(75vh, 100px, 100vh) 0;
+}
+
+#profile-img {
+  /* Change this values to work for you. */
+  margin: clamp(100px, 30vh, 100px) auto;
+
+  /* This should be an image */
+  background-image: url(img/close-up.jpg);
+  background-color:;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  /* Change this values to work for you. */
+  height: clamp(100px, 30vh, 200px);
+
+  /* Change this values to work for you. */
+  width: clamp(100px, 30vh, 200px);
+
+  border-radius: 100%;
+  border: 2px dotted purple;
+} 
+
+#hero-section h2 {
+  /* How to center text? */
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: lime;
+  /* Add responsive vertical margins via clamp? */ 
+}
+
+#hero-section p {
+  text-align: center;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: lime;
+}
+
+/* Mission Section */
+#mission-section {
+  text-align: center;
+  padding: 40px;
+}
+
+/* Skills Section */
+#skills-section {
+  text-align: center;
+  padding: 50px;
+}
+
+#skill1 {
+  height: 10vh;
+  width: 10vh;
+  filter:;
+}
+
+#skill2 {
+  height: 10vh;
+  width: 10vh;
+  filter:;
+}
+
+#skill3 {
+  height: 10vh;
+  width: 10vh;
+  filter: ;
+}
+
+#skill4 {
+  height: 10vh;
+  width: 10vh;
+  filter:;
+}
+
+/* Inspiration Section */
+#inspiration-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.carousel-item img {
+  height: 420px;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.carousel-caption {
+  text-shadow: 2px 2px redlime;
+}
+
+/* Contact Section */
+#contact-section {
+  text-align: center;
+  padding: 40px;
+}
+
+#contact-section i:hover {
+  color: purple;
+}
+
+
+#contact-section i {
+  font-size: clamp(1vh, 2vh, 3vh);
+}
+
+
+
+/* Footer Section */
+footer {
+  text-align: center;
+  height: 20px;
+  background-color: black;
+  color: #a4b3b6;
+}
+
+.parallax1 {
+  position: relative;
+  background-image: url("https://picsum.photos/1900/1080?random");
+  min-height: 50vh;
+  /* Add code here! */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+.parallax2 {
+  text-align: relative;
+  background-image: url("https://picsum.photos/1900/1080?random");
+  min-height: 50vh; 
+  position: relative;
+  /* Copy background properties from parallax1 */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.overlay {
+  background-color:;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* Use absolute positioning to place overlay on parallax */
+}
+.parallax2 h2 {
+  font-size: 12em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: ;
+  z-index: 100;
+}
+.parallax3 {
+  position: relative;
+  background-image: url("https://picsum.photos/1920/1080?random");
+  min-height: 50vh; 
+  /* Add the same parallax properties from the first two examples */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.img-fluid{
+  width: 100;
+  height: auto;
+}
